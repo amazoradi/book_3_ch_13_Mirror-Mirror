@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#mirror1 {
+  border: 1px solid teal;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+#mirror2 {
+  border: 1px solid red;
+  width: 250px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+#message {
+text-align: center;
+  margin: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
