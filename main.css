@@ -7,16 +7,17 @@ section {
 
 #mirror1 {
   border: 1px solid teal;
-  width: 250px;
+  width: 50%;
+  height: auto;
   box-sizing: border-box;
+  word-wrap: break-word
 }
 
 #mirror2 {
   border: 1px solid red;
-  width: 250px;
+  width: 50%;
   box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 #message {
 text-align: center;
